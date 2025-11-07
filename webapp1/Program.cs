@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-
-app.MapGet("/", () => "Hello World!, Version 14");
+app.MapGet("/", () => "Hello World!, Version 15, on 300vs only");
+>>>>>>> Stashed changes
 
 app.Run();
